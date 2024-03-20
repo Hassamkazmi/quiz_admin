@@ -1,0 +1,848 @@
+
+:root {
+  --primary-color: var(--primary-color);
+  --secondary-color: var(--secondary-color);
+}
+
+.chemicals h2 {
+  font-weight: 800;
+  color: #750004;
+}
+
+.customers h2 {
+  font-weight: 800;
+  color: #750004;
+  text-transform: uppercase;
+}
+
+.chemicalRight h6 {
+  font-weight: 400;
+  color: #676767;
+}
+
+.chemicalRight h6 > span {
+  font-weight: 700;
+  color: #750004;
+  font-size: 20px;
+}
+
+.row.chemicals {
+  display: flex;
+  justify-content: space-around;
+}
+
+form.tableFilters {
+  background-color: transparent !important;
+}
+
+form.tableFilters select {
+  background-color: #fff;
+  color: #8f8f8f !important;
+  border-radius: 8px;
+  border: 1px solid #d9d8d8;
+  margin: 0 5px 0px 0px !important;
+  width: 42% !important;
+}
+
+form.tableFilters .ant-picker {
+  width: 45% !important;
+  border-radius: 8px;
+  margin: 0px 5px;
+}
+
+form.invoiceFilter .ant-picker {
+  width: 40% !important;
+  border-radius: 8px;
+  margin: 0px 5px;
+}
+
+
+.addRoute {
+  background: #f0f0f0;
+  margin: 20px auto !important;
+}
+
+
+
+.ant-form label {
+  font-family: "Poppins";
+}
+
+.submitButton {
+  width: 242px !important;
+  font-size: 20px !important;
+}
+
+.submitButtoonnn{
+  width: 100px !important;
+  font-size: 20px !important;
+}
+
+/* .col-sm-2.routeDateee{
+  padding-top: 15px !important;
+} */
+
+
+.valueForm {
+  margin-left: -130px;
+}
+
+.valueForm span {
+  font-size: 15px;
+  color: #fabf3e;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+.serviceLog {
+  background-color: #f0f0f0;
+  margin-top: 28px;
+  border-radius: 15px;
+  padding: 30px 10px 10px 10px;
+}
+
+.row.customers .col-sm-4 h6 {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.DetailFilters .ant-select-single {
+  font-size: 14px;
+  width: 47%;
+  margin: 0 10px;
+}
+
+.serviceInfoInput input {
+  text-align: center;
+  background: #fff !important;
+}
+
+.wordkorder textarea {
+  background-color: #efefef;
+}
+
+.serviceCheckList {
+  margin-bottom: 40px !important;
+}
+
+.serviceEmail {
+  margin-top: -12px !important;
+}
+
+.ant-radio-group.ant-radio-group-outline {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.radioSection {
+  margin: 20px 0;
+}
+
+.radioSection .ant-radio-wrapper span.ant-radio + * {
+  padding-inline-start: 8px;
+  padding-inline-end: 8px;
+  color: black;
+  font-size: 13px !important;
+  font-family: "Poppins" !important;
+  font-weight: 500;
+}
+
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+  border-top: 0px;
+  height: 400px;
+}
+
+.emailButton {
+  max-width: 33.333333%;
+  display: flex;
+  margin: 27px 0;
+}
+
+.emailForm {
+  background-color: #f0f0f0;
+}
+
+.emailForm input {
+  background-color: #fff;
+}
+
+.container-fluid.wordkorder.broadCastEmail input {
+  background-color: #fff !important;
+}
+
+.quill {
+  background-color: #fff;
+}
+
+.col-sm-1.valuesSection {
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #d9d8d8;
+
+  padding: 30px 0px;
+
+  margin: 0 15px;
+}
+
+.col-sm-1.valuesSection p {
+  text-align: center;
+  color: #b0b0b0;
+  margin: 0 auto;
+}
+form.tableFilters.invoiceFilter {
+  background-color: transparent !important;
+  position: absolute;
+  margin-top: 0;
+  right: -47.5%;
+}
+
+form.invoiceFilter .ant-picker {
+  width: 50% !important;
+  border-radius: 8px;
+  margin: 0px 5px;
+}
+.d-flex{
+  position: relative;
+}
+.ant-tabs .ant-tabs-tab + .ant-tabs-tab {
+  margin: 0px 32px 0px 0px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 12px 39px;
+  text-align: center;
+  color: #fff;
+}
+.ant-tabs-tab.ant-tabs-tab-active {
+  background-color: #fab51c !important;
+}
+.ant-tabs .ant-tabs-tab:hover {
+  color: #fff;
+}
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fff !important;
+}
+.ant-tabs .ant-tabs-tab {
+  margin: 0px 32px 0px 0px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 12px 39px;
+  text-align: center;
+  color: #fff;
+}
+form.myfilters.grayFilters {
+  background-color: #d9d8d8 !important;
+}
+.grayFilters input {
+  width: 90% !important  ;
+}
+.shoppingDropDown .ant-select {
+  width: 100% !important;
+}
+/* .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+ 
+    background-color: #D9D8D8 !important;
+  
+} */
+
+.shoppingHeader h2 {
+  font-size: 30px !important;
+  font-weight: 800;
+  margin: 25px 15px;
+  word-break: break-word;
+}
+.shopHeader h2 {
+  font-weight: 800;
+  color: #750004;
+  font-size: 30px;
+  margin: 25px 60px;
+}
+.editWorkHeader.row.customers {
+  margin: 24px 0px;
+  margin-top: 7px;
+}
+.repairSection {
+  margin: 17px 0px;
+  display: flex;
+  align-items: center;
+}
+.repairSection .bluebtn {
+  padding: 5px 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: larger;
+  font-size: 15px;
+}
+.repairSection h6 {
+  color: #ffa629;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.workSlider .swiper-button-prev {
+  position: absolute !important;
+  right: 15% !important;
+}
+.col-sm-12.submitbtn.workBtn {
+  text-align: end;
+  margin: 25px 0px;
+}
+.col-sm-12.workTypeSection {
+  margin: 0 auto;
+  background-color: #ffff;
+  border-radius: 15px;
+  margin-top: 20px;
+  /* width: 100% !important; */
+  max-width: 98% !important;
+  padding: 10px 35px;
+}
+.workTypeSection h6 {
+  font-size: 17px;
+  padding-top: 25px;
+}
+.workTypeSection p {
+  opacity: 0.5;
+}
+.dynamic_form_nest_item
+  .ant-input-textarea-affix-wrapper.ant-input-affix-wrapper
+  > textarea.ant-input {
+  background-color: #fff;
+}
+/* .routefilters.row .col-sm-6 p,
+.col-sm-12 p {
+  color: var(--text-10, #b0b0b0);
+  font-size: 15px;
+  margin-bottom: 0px;
+  padding: 18px 0;
+} */
+/* .routefilters.row .col-sm-6 label,
+.col-sm-6 label {
+  margin: 20px 0px;
+} */
+.routefilters.row .col-sm-6 input {
+  margin-top: 20px !important;
+  padding: 10px;
+}
+.customerInfo h3 {
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.customertypes .ant-select-selector {
+  background: #e7e7e7 !important;
+  color: #000 !important;
+  font-weight: 700;
+}
+.emailList .col-sm-2 button {
+  background-color: #efefef;
+  font-size: 12px;
+  padding: 10px !important;
+  border-radius: 10px;
+}
+
+.emailButton button {
+  padding: 10px 60px;
+}
+.invoicingReport {
+  padding: 0 20px;
+}
+.invoicingReport h2 > span {
+  color: #b0b0b0;
+  font-size: 20px;
+  padding: 0 10px 0px 0px;
+  font-weight: 300;
+}
+.invoicingReport h2 {
+  color: var(--text-100, #1c1c1c);
+
+  font-size: 30px;
+  font-weight: 700;
+}
+.col-sm-6 .greySection {
+  border-radius: 12.863px;
+  background: var(--stroke, #f0f0f0);
+  height: 110px;
+  margin: 2px 0px;
+  padding: 12px 20px;
+}
+.col-sm-12.greySection {
+  border-radius: 15px;
+  background: var(--stroke, #d9d9d9);
+
+  width: 100%;
+  margin: 5px 0px;
+  padding: 30px 100px;
+  text-align: end;
+}
+
+.col-sm-12.greySection .col-sm-3 {
+  padding: 0 59px;
+}
+.col-sm-12.greySection .col-sm-9 {
+  padding: 0 35px;
+}
+.invoicer {
+  padding: 10px 0px;
+  padding-bottom: 35px;
+}
+.invoiceTable td {
+  font-weight: 500;
+  color: #000;
+  font-size: 13px;
+}
+.emailFilters .ant-radio-group.ant-radio-group-outline {
+  width: 90%;
+  margin: 0 auto;
+}
+.emailFilters .col-sm-6 p,
+.col-sm-12 p {
+  text-align: start;
+}
+.emailFilters .ant-form-item .ant-form-item-control-input {
+  margin: 0 auto;
+  width: 100%;
+}
+.savebtn .button {
+  width: 28%;
+}
+.ant-select-selection-search input {
+  border: none !important;
+  height: 100% !important;
+}
+.ant-color-picker-trigger {
+  width: 100% !important;
+  padding: 23px 16px !important;
+  /* text-align: start; */
+  /* align-items: center; */
+  justify-content: start;
+}
+.workSetting label.ant-checkbox-wrapper {
+  padding: 14px 0 !important;
+  color: #b0b0b0;
+  width: 100% !important;
+  font-size: 14px;
+}
+.workRadio {
+  padding: 0 !important;
+}
+.workRadio .ant-radio-group.ant-radio-group-outline {
+  display: flex;
+
+  align-items: center;
+  width: 98%;
+  border: 1px solid rgb(203, 203, 203);
+  margin-left: 15px;
+  border-radius: 5px;
+}
+.workRadio .ant-radio-group.ant-radio-group-outline:hover {
+  border: 1px solid rgb(72, 144, 251);
+}
+.workRadio label.ant-radio-wrapper {
+  width: unset;
+}
+.workRadio label.ant-radio-wrapper span {
+  color: #b0b0b0 !important;
+}
+.valueForm1 {
+  margin-left: -68px;
+}
+.valueForm2 {
+  margin-left: -68px;
+  margin-top: 7px;
+  margin-right: 52px;
+}
+.workRadio input {
+  border: none !important;
+}
+.sideBarComp li .accordion-item {
+  background:var(--primary-color);
+  padding: 0 !important;
+  margin-top: 0px;
+  margin: 0;
+}
+.sideBarComp li button.accordion-button {
+  padding-left: 0px;
+  margin-bottom: 0 !important;
+  background-image: none !important;
+}
+.sideBarComp li h2,
+.h2 {
+  font-size: 36px;
+  padding: 0px 12px !important;
+  margin: 0 !important;
+}
+.nav-link1.active,
+.nav-link1 {
+  background-color: red !important;
+}
+/* .sideBarComp li .accordion-item h2 {
+  margin-top: 0 !important;
+  padding: 0 !important;
+  padding-left: 22px !important;
+  font-size: 15px;
+  color: #eee;
+  opacity: 0.6;
+} */
+/* .sideBarComp li .accordion-item h2:hover {
+  background-color: #fab51c !important;
+  border-radius: 0 20px 20px 0;
+
+  opacity: 1;
+} */
+/* .sideBarComp button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #eeee;
+  font-size: 12px;
+} */
+
+.shoppingTab {
+  margin-left: 0px !important;
+}
+
+.modalHeader.modal-header {
+  justify-content: end;
+}
+.workCustomer {
+  margin: 20px 0;
+}
+.workCustomer h4 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.workCustomer p {
+  line-height: auto;
+  padding: 0;
+  color: #b3b3b3;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.workPool p {
+  color: #b3b3b3;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 0;
+}
+
+.workPool span {
+  display: flex;
+  padding: 0;
+}
+
+.workPool span p {
+  margin-right: 10px;
+}
+.workStatus p {
+  color: #b3b3b3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 14px;
+}
+.workSelect {
+  height: 150px;
+}
+textarea#workneed {
+  height: 190px;
+  margin-left: 11px;
+  margin-top: 27px;
+  background-color: rgb(248, 248, 248);
+  width: 100%;
+}
+.workAdded {
+  text-align: end !important;
+  color: #b3b3b3;
+
+  font-size: 13px !important;
+
+  font-weight: 700;
+  margin-top: 6px;
+}
+.workFilter .ant-select-single {
+  font-size: 14px;
+  width: 100%;
+}
+.ant-row.ant-form-item-row {
+  display: block;
+}
+label.ant-form-item-required {
+  margin-bottom: 0px;
+}
+
+a.nav-link1.active {
+  background-color: transparent !important;
+}
+
+.ant-card-head-title a,
+.ant-card-head-title {
+  color: #750004;
+}
+.ant-card.ant-card-bordered p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ccuusssttinfffooo{
+  word-break: break-word;
+}
+.checkForm .ant-form {
+  width: 100% !important;
+}
+.colorPicker .ant-form-item .ant-form-item-label > label {
+  margin: 0px;
+}
+.serviceRedings .row {
+  background-color: #f8f8f8;
+  margin: 10px 0px;
+  border-radius: 10px;
+  align-items: center;
+  padding-top: 15px;
+}
+.workSelect .ant-card-bordered {
+  border: 1px solid #f0f0f0;
+  background-color: #ececec;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.workSelect .ant-card-bordered p {
+  color: #b3b3b3;
+
+  font-size: 14px;
+
+  font-weight: 700;
+}
+.addedP {
+  color: #750004;
+  font-weight: 700;
+}
+.addedP span.ant-tag.css-dev-only-do-not-override-17a39f8 {
+  color: #750004;
+  font-size: large;
+}
+.bodyroute a {
+  color: #000;
+}
+.bodyroute a:hover {
+  color: #000;
+}
+.col-sm-1.valuesBtn {
+  margin-left: -50px;
+  margin-top: 15px;
+}
+
+.col-sm-1.valuesBtnnnn{
+  /* margin-left: -40px; */
+  margin-top: 7px;
+}
+
+.valuesBtnnnnY input{
+  min-width: 110%;
+}
+
+.valuesBtnnnn .valuesBtnnnnYellow{
+  min-height: 48px !important;
+}
+
+.col-sm-0.readingValues span {
+  margin: 3px 2px;
+}
+.col-sm-0.readingValues {
+  margin-left: -110px;
+}
+.container-fluid.wordkorder.valuesListing {
+  width: 95%;
+}
+
+.valueForm3 {
+  margin-left: -68px;
+  margin-top: 28px;
+  margin-right: 52px;
+}
+
+.emailFilters p {
+  color: #000;
+  font-size: 14px;
+  padding-top: 15px;
+}
+.col-sm-2 img {
+  width: 100%;
+}
+.card-body img{
+  width: auto;
+}
+.sidebar .nav li:hover {
+  background: transparent ;
+  opacity: 1;
+}
+.sidebar .sidebar-wrapper.sideBarComp .nav li:hover a{
+  background: transparent ;
+}
+.row.grayshade .swiper-slide {
+  width: 60px !important;
+}
+.col-sm-9.chemicalRight {
+  padding-top: 17px;
+}
+.editCustomer .ant-input-disabled,.ant-input[disabled] {
+  color: rgba(0, 0, 0, 0.25);
+  /* background-color: transparent;  */
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+
+
+.taxratemodal.modal.show .modal-dialog .modal-content {
+  margin: auto !important;
+  width: 50% !important;
+}
+
+p.selectrateinput {
+  font-weight: 500;
+  font-size: 15px;
+  margin: 5px;
+  text-decoration: underline;
+}
+
+.main h3 {
+  font-size: 22px;
+  margin-left: 30px;
+}
+
+
+.tech_color_code {
+  height: 20px;
+  width: 45px;
+  margin: 0px 10px;
+}
+
+.nodata_div {
+  text-align: center;
+  padding: 30px;
+}
+
+.nodata_div p {
+  color: #f0b51b ;
+}
+
+.aaa.nav-item {
+  background: #f0b51b;
+}
+
+.col-sm-6.height-adjust {
+  height: 100vh;
+}
+
+span.newroute-data21 {
+  font-weight: 700;
+  font-size: 14px;
+}
+.stepsform1{
+  padding: 0 !important;
+
+}
+.top-account-css {
+  padding: 0 20px;
+}
+
+
+.registerForm h3 {
+  background-color: var(--primary-color);
+  padding: 12px;
+  margin: 12px 0px;
+  color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.registerForm h3 svg {
+  font-size: 20px;
+  color: #FAB51C;
+}
+
+.registerForm {
+  background: #f7f7f7 !important;
+  margin: 0px auto !important;
+}
+.loginBtn button {
+
+  width: 100%;
+}
+
+.imageUploader span.ant-upload button {
+  margin-left: 0% !important;
+  margin-top: 0px !important;
+}
+
+.monthly h3{
+text-align: center ;
+font-size: 30px;
+font-weight: 600;
+
+}
+.paymentBtn{
+text-align: right;
+}
+
+.paymentSpace{
+  display: block !important;
+}
+
+
+
+
+.Toastify__toast{
+
+  font-size: 18px;
+}
+.smsHeader{
+    padding-bottom: 44px;
+   
+}
+.profile-name {
+  display: inline-block;
+  max-width: 300px; /* Adjust the maximum width as needed */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.majid{
+  width: 70%;
+}
+
+ span.ant-input-affix-wrapper.css-dev-only-do-not-override-1qhpsh8.ant-input-outlined.ant-input-password.main-input-css {
+  padding: 0 12px !important;
+  padding: 0 12px !important;
+  background-color: #bfd4f340 !important;
+}
+
+.loginInputs input{
+  background-color: #bfd4f340 !important;
+
+}
+.logBtn.ant-btn-primary {
+  
+  width: 30% !important;
+}
+.ant-card.ant-card-bordered p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: black  !important;
+}
