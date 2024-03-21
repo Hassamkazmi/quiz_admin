@@ -106,6 +106,29 @@ export const deleteQuestionData = createAsyncThunk(
 );
 
 
+export const deleteQuestionDataNew = createAsyncThunk(
+  "deleteCustomerquestionnew/updateData",
+  async ({id}, { rejectWithValue }) => {
+    const token = Cookies.get("userToken");
+
+    const config = {
+      headers: {
+        Authorization: token,
+      },
+    };
+    try {
+      const response = await axios.delete(
+        `${process.env.REACT_APP_API_URL}/AllQuizQuestions/${id}`,
+        config
+      );
+      return response.data;
+    } catch (error) {
+      return rejectWithValue(error.response.data);
+    }
+  }
+);
+
+
 
 // Create the Redux Toolkit slice
 const postSCustomerSlice = createSlice({

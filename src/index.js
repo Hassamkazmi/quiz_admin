@@ -27,6 +27,7 @@ import AddShopping from "./views/AddShopping";
 import Chemicals from "./views/Chemicals";
 import { ToastContainer } from "react-toastify";
 import { loadStripe } from "@stripe/stripe-js";
+import AddProductForm from "./views/AddProduct";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -62,6 +63,7 @@ root.render(
             <Route exact path="/dashboard" element={<Dashboard />} />
             <Route exact path="/question" element={<Question />} />
             <Route exact path="/option" element={<Options />} />
+            <Route exact path="/addoption" element={<AddProductForm />} />
 
 
             <Route exact path="/addcustomer" element={<Addcustomer />} />

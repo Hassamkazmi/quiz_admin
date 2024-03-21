@@ -87,63 +87,19 @@ const AddProductForm = () => {
           <div className="col-sm-6">
             <Form.Item
               name="description"
-              label="Description"
+              label="Percentage"
               rules={[
                 {
                   required: true,
-                  message: "Please input Product Description!",
+                  message: "Please input Percentage!",
                 },
               ]}
             >
-              <Input placeholder="Description" />
+              <Input placeholder="Percentage" />
             </Form.Item>
           </div>
 
-          <div className="col-sm-6">
-            <Form.Item
-              name="price"
-              label="Price"
-              rules={[
-                { required: true, message: "Please input Product Price!" },
-              ]}
-            >
-              <Input placeholder="Price" type="number" />
-            </Form.Item>
-          </div>
-
-          <div className="col-sm-6">
-            <Form.Item
-              name="item_type_id"
-              label="Type"
-              rules={[{ required: true, message: "Please input Type !" }]}
-            >
-              <Select placeholder="Type">
-                {getProductType &&
-                  getProductType?.items?.map((item) => {
-                    return <Option value={item._id}>{item.name}</Option>;
-                  })}
-              </Select>
-            </Form.Item>
-          </div>
-          <div className="col-sm-6 valuesForm1Checkbox">
-            <Form.Item name="Values">
-              <Input
-                defaultValue={"Taxable Price"}
-                placeholder="Values"
-                readOnly
-              />
-            </Form.Item>
-          </div>
-          <div className="col-sm-2 valueForm1">
-            <Form.Item name="Valuess">
-              <span>
-                <Checkbox
-                  checked={includeServicePrice}
-                  onChange={handleCheckboxChange}
-                />
-              </span>
-            </Form.Item>
-          </div>
+         
           <div className="col-sm-12 savebtn">
             <Form.Item>
               <Button
@@ -153,7 +109,7 @@ const AddProductForm = () => {
                 disabled={loading}
                 loading={loading}
               >
-                Save Product
+                Save 
               </Button>
             </Form.Item>
           </div>

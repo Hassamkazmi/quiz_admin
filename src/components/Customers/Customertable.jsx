@@ -11,7 +11,7 @@ import { fetchgetCustomers, STATUSES } from "../../redux/Slices/getCustomer";
 import { fetchgetSingleCustomers } from "../../redux/Slices/getSingleCustomer";
 import { Spin } from "antd";
 import DeleteModal from "../Modals/DeleteModal";
-import { deleteQuestionData } from "../../redux/postReducer/postCustomer";
+import { deleteQuestionData, deleteQuestionDataNew } from "../../redux/postReducer/postCustomer";
 import Loader from "../NoDataComponent/Loader"
 import Avatar from "../../assets/img/avatar.png";
 
@@ -49,9 +49,8 @@ export default function Customertable() {
 
       
   const handleDelete = async (id) => {
-    await  dispatch(deleteQuestionData({id}))
-    toast.success("Customer Delete SuccessFully");
-    dispatch(fetchgetCustomers({ name, customer_type, status, currentPage, forceRefetch: true }));
+    await  dispatch(deleteQuestionDataNew({id}))
+    toast.success(" Delete SuccessFully");
   };
 
       // --------------- Modal of delete Alert ----------------- //
@@ -84,7 +83,7 @@ export default function Customertable() {
     setTotalPages(getCustomer.totalPages);
     setpostsPerPage(getCustomer.pageSize);
     settotalPost(getCustomer.totalCount);
-  },[]);
+  },[getCustomer]);
 
 
           // --------------- Loader Data API Status----------------- //

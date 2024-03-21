@@ -26,11 +26,10 @@ export default function Customersearch() {
           </h2>
         </div>
         <div className="col-sm-7 right equipmentssss">
-         
-
-          {/* <Link to="/addcustomer">
-            <button className="bluebtn">Add Question</button>
-          </Link> */}
+ 
+          <Link to="/addoption">
+            <button className="bluebtn">Add Option</button>
+          </Link> 
         </div>
       </div>
     </Fragment>

@@ -84,7 +84,7 @@ export default function Customertable() {
     setTotalPages(getDashboardApi.totalPages);
     setpostsPerPage(getDashboardApi.pageSize);
     settotalPost(getDashboardApi.totalCount);
-  },[]);
+  },[getDashboardApi]);
 
 
 

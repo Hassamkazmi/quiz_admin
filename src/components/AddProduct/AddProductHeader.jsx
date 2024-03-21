@@ -11,7 +11,7 @@ export default function AddProductHeader() {
     <Fragment>
       <div className="row customers">
         <div className="col-sm-5 ">
-          <h2>ADD Product</h2>
+          <h2>ADD Option</h2>
         </div>
       </div>
     </Fragment>
