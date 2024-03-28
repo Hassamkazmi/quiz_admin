@@ -16,10 +16,10 @@ const dashboardRoutes = [
     path: "/stats",
     name: "Stats",
   },
-  {
-    path: "/user",
-    name: "User",
-  },
+  // {
+  //   path: "/user",
+  //   name: "User",
+  // },
  
   {
     path: "/account",

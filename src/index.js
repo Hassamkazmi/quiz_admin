@@ -64,16 +64,8 @@ root.render(
             <Route exact path="/question" element={<Question />} />
             <Route exact path="/option" element={<Options />} />
             <Route exact path="/addoption" element={<AddProductForm />} />
-
-
             <Route exact path="/addcustomer" element={<Addcustomer />} />
-
             <Route exact path="/edit-customer/:id" element={<Profilepage />} />
-           
-           
-        
-            {/* faiz branch */}
-
             <Route exact path="/user" element={<ShoppingList />} />
             <Route exact path="/add-question" element={<AddShopping />} />
             
